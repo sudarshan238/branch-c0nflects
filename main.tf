@@ -7,7 +7,7 @@ resource "aws_instance" "yadav" {
   
 }
 resource "aws_s3_bucket" "name" {
-    bucket = "awssddev"
+    bucket = "awsdev"
   
 }
 resource "aws_iam_user" "admin_user" {
