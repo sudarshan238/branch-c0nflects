@@ -1,7 +1,6 @@
 resource "aws_instance" "name" {
     ami = "ami-01102c5e8ab69fb75"
-    instance_type = "t2.medium
-"
+    instance_type = "t2.nano"
     tags = {
         Name = "yadav"
     }
