@@ -1,4 +1,4 @@
-resource "aws_instance" "name" {
+resource "aws_instance" "yadav" {
     ami = "ami-01102c5e8ab69fb75"
     instance_type = "t2.micro"
     tags = {
