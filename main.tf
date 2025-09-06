@@ -11,7 +11,7 @@ resource "aws_s3_bucket" "name" {
   
 }
 resource "aws_iam_user" "admin_user" {
-  name = "yadav"
+  name = "sudarshan"
 }
 
 resource "aws_iam_user_policy_attachment" "admin_access" {
