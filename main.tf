@@ -7,7 +7,7 @@ resource "aws_instance" "suda" {
   
 }
 resource "aws_s3_bucket" "name" {
-    bucket = "awssddev"
+    bucket = "aws"
   
 }
 resource "aws_iam_user" "admin_user" {
